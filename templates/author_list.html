@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Наши авторы</h2>
+<ul>
+    {% for a in authors %}
+    <li>
+        <strong>{{ a.name }}</strong>
+    </li>
+    {% endfor %}
+</ul>
+<br>
+<a href="/books/">Назад к книгам</a>
+</body>
+</html>
